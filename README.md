@@ -13,8 +13,8 @@ In Project 1 you must create 3 webpages. One page is a professional resume and t
 
 
 1. **First Deliverable:** Create a Basecamp post describing your work in progress. Title the post with your name and project number (example Daniel Krieglstein: Project 1). Your post should include:
-⋅⋅* The URL to your GitHub repository, and the URL to your Github Pages live link
-⋅⋅* Two questions eliciting feedback on from fellow students
+* The URL to your GitHub repository, and the URL to your Github Pages live link
+* Two questions eliciting feedback on from fellow students
 
 2. **Second Deliverable:** Give constructive comments to help at least three other students.
 
