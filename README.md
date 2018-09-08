@@ -20,3 +20,16 @@ In Project 1 you must create 3 webpages. One page is a professional resume and t
 
 3. **Third Deliverable:** Edit your original Basecamp post under Project 1 by fixing your code based on feedback from the professor and fellow students. Additionally, add the following:
 Add a 3-4 sentence self-critique memo of your project and your progress in class to this point
+
+## Requirements
+
+- [ ] NO CSS IN YOUR HTML FILE!!! This means no style in your content page.
+- [ ] Two spaces indented cascade. Each child element should be indtned 2 space right of its parent.
+- [ ] alid, well-formed semantic HTML5. Projects whose HTML does not validate with the W3C HTML validator will receive a -50% point loss.
+- [ ] Absolutely no br tags, use of tables for layout, or any other use of HTML to achieve a particular page layout. (All layout and design will be handled via CSS in the next project. For this project, I urge you not to spend much time at all looking at your pages in a browser. Stick close to your source code and the HTML validator.)
+- [ ] A navigation area for accessing each of your project’s pages from any other page
+- [ ] Include at least two different forms of media (image, audio, video) in your project
+- [ ] No code-generators like WYSIWYGs, Bootstrap, or other off-the-shelf frameworks
+- [ ] Directory-based file structure for links and media. Do not use full URLs when linking to your own content. Example: "css/screen.css" vs. "https://dkriegls.github.io/itmd-361-spring2018/css/screen.css"
+- [ ] A Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
+- [ ] Git repository must contain only the files and commits from this project. Each website you make for this class should have its own repository.
