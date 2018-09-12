@@ -18,7 +18,7 @@ In Project 1 you must create 3 webpages. One page is a professional resume and t
 
 2. [x] **Second Deliverable:** Give constructive comments to help at least three other students.
 
-3. [ ] **Third Deliverable:** Edit your original Basecamp post under Project 1 by fixing your code based on feedback from the professor and fellow students. Additionally, add the following:
+3. [x] **Third Deliverable:** Edit your original Basecamp post under Project 1 by fixing your code based on feedback from the professor and fellow students. Additionally, add the following:
 Add a 3-4 sentence self-critique memo of your project and your progress in class to this point
 
 ## Requirements
