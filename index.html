@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <title>ITMD-361 Fundamentals of Web Development</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <style type="text/css">
       /*start full-width headers & footers*/
       header {
         width:100%;
-        /*height:20%;*/
         position:absolute;
         top:0;
         left:0;
@@ -60,60 +60,62 @@
       /*Stop Fuild Layout CSS*/
     </style>
   <body>
-    <header>
-      <h1>Jacob Huebner's Website</h1>
-      <p>The cheekiest content on the web.</p>
-      <nav>
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section> <!--Bio Section-->
-        <h2>About me</h2>
-        <p>Hello! My name is Jacob Huebner and I am a junior at Illinois Institute of technology. I am studying Information Technology and Management. I transferred from College of DuPage so this is my first year at IIT.</p>
-        <h2>Hobbies</h2>
-        <p>My hobbies include:</p>
-        <ul>
-          <li>Piano</li>
-          <li>Art</li>
-          <li>Rock Climbing</li>
-          <li>Hiking</li>
-          <li>Video games</li>
-          <li>Going to Concerts and Festivals</li>
-        </ul>
-      </section>
-      <section> <!--Content Section -->
-        <h2>Resume</h2>
-        <p>One of the pages on this site is my personal web resume which can be accessed <a href="resume.html">here.</a> I have included my contact information at the bottom if you like what you see or want to leave some feedback.</p>
-        <h2>Portfolio</h2>
-        <p>Another one of the pages on this site is my portfolio that includes a few professional or personal projects I've worked on. You can see my portfolio <a href="portfolio.html">here.</a></p>
-        <p></p>
-      </section>
-    </main>
-    <aside>
-      <figure>
-        <img src="img/img1_halfsize.jpg" alt="Picture of Me">
-        <figcaption>Me at my Favorite Cafe <i>tous les jours</i></figcaption>
-      </figure>
-      <!-- Optional responsive image
-      <picture>
-        <source media="(min-width: 60em)" srcset="images/dino-wide.jpg">
-        <source media="(min-width: 38em)" srcset="images/dino-rectangle.jpg">
-        <img src="images/dino-small.jpg" alt="All the dinosaurs!">
-      </picture>
-      -->
+    <div id="wrapper">
+      <header>
+        <h1>Jacob Huebner's Website</h1>
+        <p>The cheekiest content on the web.</p>
+        <nav>
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section> <!--Bio Section-->
+          <h2>About me</h2>
+          <p>Hello! My name is Jacob Huebner and I am a junior at Illinois Institute of technology. I am studying Information Technology and Management. I transferred from College of DuPage so this is my first year at IIT.</p>
+          <h2>Hobbies</h2>
+          <p>My hobbies include:</p>
+          <ul>
+            <li>Piano</li>
+            <li>Art</li>
+            <li>Rock Climbing</li>
+            <li>Hiking</li>
+            <li>Video games</li>
+            <li>Going to Concerts and Festivals</li>
+          </ul>
+        </section>
+        <section> <!--Content Section -->
+          <h2>Resume</h2>
+          <p>One of the pages on this site is my personal web resume which can be accessed <a href="resume.html">here.</a> I have included my contact information at the bottom if you like what you see or want to leave some feedback.</p>
+          <h2>Portfolio</h2>
+          <p>Another one of the pages on this site is my portfolio that includes a few professional or personal projects I've worked on. You can see my portfolio <a href="portfolio.html">here.</a></p>
+          <p></p>
+        </section>
+      </main>
+      <aside>
+        <figure>
+          <img src="img/img1_halfsize.jpg" alt="Picture of Me">
+          <figcaption>Me at my Favorite Cafe <i>tous les jours</i></figcaption>
+        </figure>
+        <!-- Optional responsive image
+        <picture>
+          <source media="(min-width: 60em)" srcset="images/dino-wide.jpg">
+          <source media="(min-width: 38em)" srcset="images/dino-rectangle.jpg">
+          <img src="images/dino-small.jpg" alt="All the dinosaurs!">
+        </picture>
+        -->
 
-    </aside>
-    <footer>
-      <address>
-        <p>Contact</p>
-        <p><strong>Author:</strong> Jacob Huebner – <strong>Github:</strong> <a href="https://github.com/JakerHuber"> JakerHuber</a></p>
-        <p>If you have any questions, please email me at: <a href="mailto:jhuebner@hawk.iit.edu">jhuebner@hawk.iit.edu</a></p>
-      </address>
-    </footer>
+      </aside>
+      <footer>
+        <address>
+          <p>Contact</p>
+          <p><strong>Author:</strong> Jacob Huebner – <strong>Github:</strong> <a href="https://github.com/JakerHuber"> JakerHuber</a></p>
+          <p>If you have any questions, please email me at: <a href="mailto:jhuebner@hawk.iit.edu">jhuebner@hawk.iit.edu</a></p>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>
