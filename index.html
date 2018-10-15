@@ -46,13 +46,24 @@
       }
       /*finish horizontal navigation*/
       /*Start Fuild Layout CSS*/
-      header {
+      div {
+        padding-right: 5%;
+        padding-left: 5%;
+      }
         width:100%;
         background-color:white;
       }
+      header h1{
+        padding-right: 5%;
+        padding-left: 5%;
+      }
+      header p{
+        padding-right: 5%;
+        padding-left: 5%;
+      }
       main{
         float: left;
-        width: 60%;
+        width: 65%;
         margin:0 5%;
         background: white;
       }
@@ -63,14 +74,14 @@
         background: white;
       }
       footer{
+        padding-right: 5%;
+        padding-left: 5%;
         clear:left;
         background: white;
         
       }
       /*Stop Fuild Layout CSS*/
       /*Start images and media*/
-      figure { 
-      }
       
       /*Stop images and media*/
       
@@ -80,24 +91,24 @@
  
     </style>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a class="logo" href="#index">Logo</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="passive" href="resume.html">Resume</a></li>
+          <li><a class="passive" href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+      <h1>Jacob Huebner's Website</h1>
+      <p>The cheekiest content on the web.</p>
+    </header>
     <div id="wrapper">
-      <header>
-        <nav>
-          <ul>
-            <li class="logo"><a class="logo" href="#index">Logo</a></li>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a class="passive" href="resume.html">Resume</a></li>
-            <li><a class="passive" href="portfolio.html">Portfolio</a></li>
-          </ul>
-        </nav>
-        <h1>Jacob Huebner's Website</h1>
-        <p>The cheekiest content on the web.</p>
-      </header>
       <main>
         <section class="bio"> <!--Bio Section-->
-          <h2>About me</h2>
+          <h2 id="about_me">About me</h2>
           <p>Hello! My name is Jacob Huebner and I am a junior at Illinois Institute of technology. I am studying Information Technology and Management. I transferred from College of DuPage so this is my first year at IIT.</p>
-          <h2>Hobbies</h2>
+          <h2 id="hobbies">Hobbies</h2>
           <p>My hobbies include:</p>
           <ul>
             <li>Piano</li>
@@ -109,9 +120,9 @@
           </ul>
         </section>
         <section class="contents"> <!--Content Section -->
-          <h2>Resume</h2>
+          <h2 id="resume">Resume</h2>
           <p>One of the pages on this site is my personal web resume which can be accessed at the top or and right navigation bars. I have included my contact information at the bottom if you like what you see or want to leave some feedback.</p>
-          <h2>Portfolio</h2>
+          <h2 id="portfolio">Portfolio</h2>
           <p>Another one of the pages on this site is my portfolio that includes a few professional or personal projects I've worked on. You can see my portfolio </p>
           <p></p>
         </section>
