@@ -11,32 +11,17 @@
       html {
         font-family: 'Open Sans', sans-serif;
         background-color: skyblue;
-        border-top: 46px solid #333
-      }
-      body{
-        margin:0;
-        padding:0;
-        border:0;
-        font:inherit;
-        vertical-align: baseline;
       }
       /*Start horizontal navigation*/
       nav {
         width: 100%;
-        left 10%;
-        top:0;
-        font-weight:normal;
-        position:absolute;
-        display: inline-block;
-        vertical-align:baseline;
-        padding-top: 0;
+        position: block;
       }
       nav ul {
-        margin:0px;
         list-style-type: none;
         margin = 0;
         padding = 0;
-        overflow:hidden;
+        overflow: hidden;
         background-color: #333;
       }
       nav ul li{
@@ -49,6 +34,7 @@
         border-left:1px solid #bbb; /*white space between nav elements*/
         text-align: center;
         padding: 14px 16px;
+        clear: left;
       }
       .active { /*highlight current active nav page*/
         background-color: #4CAF50;
@@ -64,7 +50,11 @@
       }
       /*finish horizontal navigation*/
       /*Start Fuild Layout CSS*/
-      #header h1{
+      div {
+        padding-right: 5%;
+        padding-left: 5%;
+      }
+      header h1{
         padding-right: 5%;
         padding-left: 5%;
       }
@@ -101,13 +91,11 @@
 
  
     </style>
-  </head>
   <body>
-  <div id="wrapper" class="wrapper">
     <header>
       <nav>
         <ul>
-          <li class="logo"><a class="logo" href="#index">JakeZone™</a></li>
+          <li class="logo"><a class="logo" href="#index">Logo</a></li>
           <li><a class="active" href="index.html">Home</a></li>
           <li><a class="passive" href="resume.html">Resume</a></li>
           <li><a class="passive" href="portfolio.html">Portfolio</a></li>
@@ -116,6 +104,7 @@
       <h1>Jacob Huebner's Website</h1>
       <p>The cheekiest content on the web.</p>
     </header>
+    <div id="wrapper">
       <main>
         <section class="bio"> <!--Bio Section-->
           <h2 id="about_me">About me</h2>
