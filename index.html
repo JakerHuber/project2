@@ -10,22 +10,29 @@
      
       html {
         font-family: 'Open Sans', sans-serif;
-        padding: 0.75em; /* 12px @ 16px/em */
-        padding-top: 0;
         background-color: skyblue;
-        color: #00000f;
       }
       
       /*start full-width headers & footers*/
       header {
         width:100%;
         position:block;
-        top:0;
-        left:0;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        padding-bottom: 0;
         background-color:white;
       }
+      nav {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        padding-bottom: 0;
+      }
       /*end full-width headers & footers*/
-      
+     
       /*Start Nav CSS*/
       nav ul{
         list-style-type: none;/*disable bullets*/
@@ -36,14 +43,15 @@
       }
       
       nav ul li a {
+        display: block; /*make anchor block and apply styles*/
         float: right; /*float list items left*/
         border-left:1px solid #bbb; /*white space between nav elements*/
-        display: block; /*make anchor block and apply styles*/
-        color: white;
+        text-decoration: none; /*remove anchor underline*/
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none; /*remove anchor underline*/
+        color: white;
       }
+      
      .logo {
         float: left; /*float list items left*/
         display: block; /*make anchor block and apply styles*/
@@ -59,7 +67,7 @@
 
      .active { /*highlight current active nav page*/
         background-color: #4CAF50;
-      /*Stop Nav CSS*/
+      /*Stop Nav CSS*/   
       }
       /*Start Fuild Layout CSS*/
       main{
