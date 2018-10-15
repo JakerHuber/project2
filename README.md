@@ -1,17 +1,7 @@
-# Project 1
+# Project 2
 ###### By: Jacob Huebner - ITMD 361 Fall 2018 
 
-Summary 
-In Project 2 you must... . 
-
-The pages must include a good amount of content and adhere to strict guidelines and HTML standards. 
-
-
-
-## Description
-
 This project builds on Project One, which you will fully style with CSS to provide a basic typographic treatment and responsive design that makes judicious use of media queries and relative units (em/rem, vw, %). You will deploy your pages using GitHub Pages.
-
 
 ## Goals
 
