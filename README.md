@@ -1,35 +1,49 @@
 # Project 1
 ###### By: Jacob Huebner - ITMD 361 Fall 2018 
 
-In Project 1 you must create 3 webpages. One page is a professional resume and the two other are up to your choice. The pages must include a good amount of content and adhere to strict guidelines and HTML standards. 
+Summary 
+In Project 2 you must... . 
+
+The pages must include a good amount of content and adhere to strict guidelines and HTML standards. 
+
+
+
+## Description
+
+This project builds on Project One, which you will fully style with CSS to provide a basic typographic treatment and responsive design that makes judicious use of media queries and relative units (em/rem, vw, %). You will deploy your pages using GitHub Pages.
+
 
 ## Goals
 
-* Write standards-compliant HTML-5
-* Use HTML validator to assure compliance
-* Track the development of a project over time and collaborate with others using Basecamp
+* Produce modern standards-compliant, mobile-first CSS
+* Continue to write and revise valid, well-formed semantic HTML
+* Effectively comment on and format source code for maximum readability
+* Track the development of a project over time and collaborate with others using version control
+* Deploy web pages to a public server (can be GitHub pages, set up with your own domain name or subdomain)
 
 ## Deliverables & Milestones
 
 
-1. [x] **First Deliverable:** Create a Basecamp post describing your work in progress. Title the post with your name and project number (example Daniel Krieglstein: Project 1). Your post should include:
-* The URL to your GitHub repository, and the URL to your Github Pages live link
-* Two questions eliciting feedback on from fellow students
+1. [ ] **First Deliverable:** Fork your Project One directory in Github to create a project two directory. Create a new Basecamp post under "Project Two" with a link to your new directory. Include in the text of your Basecamp post one or two specific things you would like feedback or help on from the instructor and other students in the class.
+* At least four of the same style elements to each of your pages.
+* At least four different style elements to each of your pages.
+* Centered or right justified horizontal-navigation
 
-2. [x] **Second Deliverable:** Give constructive comments to help at least three other students.
+2. [ ] **Second Deliverable:** Give constructive comments to help at least three other students.
 
-3. [x] **Third Deliverable:** Edit your original Basecamp post under Project 1 by fixing your code based on feedback from the professor and fellow students. Additionally, add the following:
-Add a 3-4 sentence self-critique memo of your project and your progress in class to this point
+3. [ ] **Third Deliverable:** Execute the corrects suggested in my Basecamp feedback. Update to your Basecamp post with the following
+* A 4-5 sentence self-critique memo of your project and your progress in class to this point (write in the body of post)
+* The public http:// or https:// link pointing to your live project
+* The https:// link to your project’s GitHub repository
 
 ## Requirements
 
-- [x] NO CSS IN YOUR HTML FILE!!! This means no style in your content page.
-- [x] Two spaces indented cascade. Each child element should be indtned 2 space right of its parent.
-- [x] alid, well-formed semantic HTML5. Projects whose HTML does not validate with the W3C HTML validator will receive a -50% point loss.
-- [x] Absolutely no br tags, use of tables for layout, or any other use of HTML to achieve a particular page layout. (All layout and design will be handled via CSS in the next project. For this project, I urge you not to spend much time at all looking at your pages in a browser. Stick close to your source code and the HTML validator.)
-- [x] A navigation area for accessing each of your project’s pages from any other page
-- [x] Include at least two different forms of media (image, audio, video) in your project
-- [x] No code-generators like WYSIWYGs, Bootstrap, or other off-the-shelf frameworks
-- [x] Directory-based file structure for links and media. Do not use full URLs when linking to your own content. Example: "css/screen.css" vs. "https://dkriegls.github.io/itmd-361-spring2018/css/screen.css"
-- [x] A Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
-- [x] Git repository must contain only the files and commits from this project. Each website you make for this class should have its own repository.
+- [ ] Multiple linked valid, well-formed semantic HTML files (Project 1, essentially) 
+- [ ] HTML-based fallbacks for any media elements (image, audio, video) that you include
+- [ ] One valid, error-free CSS file with your orginal code; and one file containing the css reset code you used.
+- [ ] Your HTML and CSS files should both be indented with 2 spaces or one tab per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
+- [ ] You must use relative units (em, rem, vm, %) in your CSS to make your pages fluid. You may use px units to put a maximum size or within content areas.
+- [ ] Create at least one fluid layout page using relative units (em, rem, vm, %) and one fixed width layout page.
+- [ ] Organized, readable source that is hand-typed and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
+- [ ] A Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
+- [ ] GitHub repository must contain only the files and commits from this project; you are encouraged to use and further improve your HTML files from Project 1
