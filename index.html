@@ -10,7 +10,14 @@
       /*start full-width headers & footers*/
       header {
         width:100%;
-        position:absolute;
+        position:block;
+        top:0;
+        left:0;
+        background-color:white;
+      }
+      footer {
+        width:100%;
+        position:block;
         top:0;
         left:0;
         background-color:white;
@@ -35,23 +42,33 @@
         padding: 14px 16px;
         text-decoration: none; /*remove anchor underline*/
       }
+     .logo {
+        float: left; /*float list items left*/
+        display: block; /*make anchor block and apply styles*/
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; /*remove anchor underline*/
+      }
 
-      nav ul li a:hover { /*hover*/
+      nav ul li a:hover:not(.active):hover:not(.logo) { /*remove hover from logo and current nav page*/
         background-color: #111;
       }
 
-      nav ul li a.active { /*set active*/
+     .active { /*highlight current active nav page*/
         background-color: #4CAF50;
       /*Stop Nav CSS*/
       }
       /*Start Fuild Layout CSS*/
       main{
-       float: left;
+        position:block;
+        float: left;
         width: 60%;
         margin:0 5%;
         background: white;
       }
       aside{
+        position:block;
         float: left;
         width: 25%;
         margin 0 5% 0 0;
@@ -62,15 +79,16 @@
   <body>
     <div id="wrapper">
       <header>
-        <h1>Jacob Huebner's Website</h1>
-        <p>The cheekiest content on the web.</p>
         <nav>
           <ul>
+            <li><a class="logo" href="#default">Logo</a></li>
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
           </ul>
         </nav>
+        <h1>Jacob Huebner's Website</h1>
+        <p>The cheekiest content on the web.</p>
       </header>
       <main>
         <section> <!--Bio Section-->
