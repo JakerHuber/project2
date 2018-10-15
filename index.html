@@ -6,31 +6,32 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <style type="text/css">
-      
-      ul.nav{
-        list-style-type: none;
+      /*Start Nav CSS*/
+      nav ul{
+        list-style-type: none;/*disable bullets*/
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #333;
       }
       
-      li a {
-        float: left;
-        border-right:1px solid #bbb;
-        display: block;
+      nav ul li a {
+        float: right; /*float list items left*/
+        border-left:1px solid #bbb; /*white space between nav elements*/
+        display: block; /*make anchor block and apply styles*/
         color: white;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;
+        text-decoration: none; /*remove anchor underline*/
       }
 
-      li a:hover:not(.active) {
+      nav ul li a:hover { /*hover*/
         background-color: #111;
       }
 
-      .active {
+      nav ul li a.active { /*set active*/
         background-color: #4CAF50;
+      /*Stop Nav CSS*/
       }
     </style>
   <body>
@@ -38,7 +39,7 @@
       <h1>Jacob Huebner's Website</h1>
       <p>The cheekiest content on the web.</p>
       <nav>
-        <ul class="nav">
+        <ul>
           <li><a class="active" href="index.html">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
