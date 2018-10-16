@@ -14,6 +14,10 @@
         box-sizing: border-box;
         color: #0b0b0b;
       }
+      body {
+        font:inherit;
+        vertical-align: baseline;
+      }
       /*Start horizontal navigation*/
       nav {
         width: 960px;
@@ -50,11 +54,7 @@
         float: left;
       }
       /*finish horizontal navigation*/
-      /*Start Fuild Layout CSS*/
-      body{
-        font:inherit;
-        vertical-align: baseline;
-      }
+      /*Start Fixed Layout CSS*/
       #wrapper {
         margin-right: auto;
         margin-left: auto;
@@ -62,24 +62,24 @@
         background-color: #FBFBFF;
         border-top: 5px solid #FBFBFF;
       }
-      header h1{
+      #title{
         margin-right: 10px;
         margin-left: 10px;
         width: 940px;
       }
-      header p{
+      #motto{
         margin-right: 10px;
         margin-left: 10px;
         width: 940px; 
       }
-      main {
+      #content_homepage {
         margin-top: 10px;
         margin-right: 10px;
         float: right;
         width: 698px;
         background-color: #FBFBFF;
       }
-      aside {
+      #aside_homepage {
         background-color: #FBFBFF;
         border-right-color: #333;
         border-right-style: solid;
@@ -91,7 +91,7 @@
         float: left;
         width: 220px;
       }
-      footer {
+      #footer_homepage {
         background-color: #FBFBFF;
         float: left;
         margin-top: 10px;
@@ -100,9 +100,10 @@
         clear: both;
         width: 940px;
       }
+      /*Stop Fixed Layout CSS*/
+      /*Start Fluid Layout CSS*/
       /*Stop Fuild Layout CSS*/
       /*Start images and media*/
-      
       /*Stop images and media*/
     </style>
   </head>
@@ -117,10 +118,10 @@
           <li><a class="passive" href="portfolio.html">Portfolio</a></li>
         </ul>
       </nav>
-      <h1>Jacob Huebner's Website</h1>
-      <p>The cheekiest content on the web.</p>
+      <h1 id="title">Jacob Huebner's Website</h1>
+      <p id="motto" >The cheekiest content on the web.</p>
     </header>
-      <main>
+      <main id="content_homepage">
         <section class="bio"> <!--Bio Section-->
           <h2 id="about_me">About me</h2>
           <p>Hello! My name is Jacob Huebner and I am a junior at Illinois Institute of technology. I am studying Information Technology and Management. I transferred from College of DuPage so this is my first year at IIT.</p>
@@ -143,7 +144,7 @@
           <p></p>
         </section>
       </main>
-      <aside>
+      <aside id="aside_homepage">
         <figure>
           <img src="img/img1_halfsize.jpg" alt="Picture of Me" width="150" height="200">
           <figcaption>Me at my Favorite Cafe <i>tous les jours</i></figcaption>
@@ -162,7 +163,7 @@
         </ul>
 
       </aside>
-      <footer>
+      <footer id="footer_homepage">
         <address>
           <p>Contact</p>
           <p><strong>Author:</strong> Jacob Huebner – <strong>Github:</strong> <a href="https://github.com/JakerHuber"> JakerHuber</a></p>
