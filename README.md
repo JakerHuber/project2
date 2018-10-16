@@ -28,12 +28,13 @@ This project builds on Project One, which you will fully style with CSS to provi
 
 ## Requirements
 
-- [ ] Multiple linked valid, well-formed semantic HTML files (Project 1, essentially) 
+- [x] Multiple linked valid, well-formed semantic HTML files (Project 1, essentially) 
 - [ ] HTML-based fallbacks for any media elements (image, audio, video) that you include
-- [ ] One valid, error-free CSS file with your orginal code; and one file containing the css reset code you used.
-- [ ] Your HTML and CSS files should both be indented with 2 spaces or one tab per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
+- [x] One valid, error-free CSS file with your orginal code; and one file containing the css reset code you used.
+- [x] Your HTML and CSS files should both be indented with 2 spaces or one tab per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
 - [ ] You must use relative units (em, rem, vm, %) in your CSS to make your pages fluid. You may use px units to put a maximum size or within content areas.
-- [ ] Create at least one fluid layout page using relative units (em, rem, vm, %) and one fixed width layout page.
-- [ ] Organized, readable source that is hand-typed and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
-- [ ] A Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
+- [ ] Create at least one fluid layout page using relative units (em, rem, vm, %)
+- [x] Create at least one fixed width layout page.
+- [x] Organized, readable source that is hand-typed and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
+- [x] A Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
 - [ ] GitHub repository must contain only the files and commits from this project; you are encouraged to use and further improve your HTML files from Project 1
