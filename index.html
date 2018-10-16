@@ -10,30 +10,23 @@
      
       html {
         font-family: 'Open Sans', sans-serif;
-        background-color: skyblue;
+        background-color: #01BAEF;
         border-top: 46px solid #757575;
         box-sizing: border-box;
         color: #0b0b0b;
       }
-      body{
-        font:inherit;
-        vertical-align: baseline;
-      }
       /*Start horizontal navigation*/
       nav {
-        width: 100%;
+        width: 960px;
         top:0;
-        font-weight:normal;
-        position:absolute;
-        display: block;
+        position: absolute;
         vertical-align:baseline;
-        padding-top: 0;
+        font-weight:normal;
       }
       nav ul {
-        margin: 0px;
-        list-style-type: none;
         margin: 0;
         padding: 0;
+        list-style-type: none;
         overflow:hidden;
         background-color: #757575;
       }
@@ -41,10 +34,10 @@
         float: right;
       }
       nav ul li a{
+        height: 18px;
         display: block;
         color: #FBFBFF;
         text-decoration: none;
-
         text-align: center;
         padding: 14px 16px;
       }
@@ -59,24 +52,29 @@
       }
       /*finish horizontal navigation*/
       /*Start Fuild Layout CSS*/
+      body{
+        font:inherit;
+        vertical-align: baseline;
+        height: 3000px;
+      }
       #wrapper {
         margin-right: auto;
         margin-left: auto;
         width: 960px;
-        display:block;
         background-color: white;
+        border-top: 10px solid #FBFBFF;
       }
       header h1{
         margin-right: 10px;
         margin-left: 10px;
         width: 940px;
-        height: 4000px;
       }
       header p{
         margin-right: 10px;
         margin-left: 10px;
-        width: 940px;
+        width: 940px; 
       }
+      /*
       nav {
         padding-bottom: 25px;
         margin-top: 0px;
@@ -84,7 +82,7 @@
         padding-right: 10px;
         padding-left: 10px;
         width: 940px;
-      }
+      } */
       main {
         margin-top: 58px;
         margin-right: 10px;
@@ -155,7 +153,7 @@
       </main>
       <aside>
         <figure>
-          <img src="img/img1_halfsize.jpg" alt="Picture of Me" width="300" height="200">
+          <img src="img/img1_halfsize.jpg" alt="Picture of Me" width="150" height="200">
           <figcaption>Me at my Favorite Cafe <i>tous les jours</i></figcaption>
         </figure>
         <h2>Navigation</h2>
