@@ -37,4 +37,4 @@ This project builds on Project One, which you will fully style with CSS to provi
 - [x] Create at least one fixed width layout page.
 - [x] Organized, readable source that is hand-typed and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
 - [x] A Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
-- [ ] GitHub repository must contain only the files and commits from this project; you are encouraged to use and further improve your HTML files from Project 1
+- [x] GitHub repository must contain only the files and commits from this project; you are encouraged to use and further improve your HTML files from Project 1
