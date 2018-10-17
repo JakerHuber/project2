@@ -145,11 +145,27 @@
         margin: 0em;
         text-align: right;
       }
-      /*Stop Fuild Layout CSS*/
-      /*Start images and media*/
-      /*Stop images and media*/
-      /*resume*/
       #nav_fluid {
         width: 100%;
         min-width: 385px;
       }
+      /*Stop Fuild Layout CSS*/
+      /*Start images and media*/
+      img{
+        border-radius: 1em;
+        max-width: 100%;
+        height: auto;
+        max-height: 20em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      iframe{
+        width: 48em;
+        height: 27em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      /*Stop images and media*/
+      /*resume*/
