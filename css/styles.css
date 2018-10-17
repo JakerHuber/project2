@@ -103,6 +103,48 @@
 
       /*Stop Fixed Layout CSS*/
       /*Start Fluid Layout CSS*/
+      #resume_wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 960px;
+        background-color: #FBFBFF;
+        border-top: 0.125em solid #0b0b0b;
+      }
+      #resume_title{
+        width: 100%;
+        text-align: center;
+      }
+      #resume_motto{
+        width: 100%;
+        text-align: center;
+      }
+      #resume_title_h2{
+        width: 100%;
+        text-align: center;
+      }
+      .fluid{
+        width: 100%;
+      }
+      .fluid_section{
+        width: 100%;
+      }
+      .fluid_object {
+        float: left;
+        width: 70%;
+        margin: 0em;
+      }
+      .fluid_details {
+        float: left;
+        width: 100%;
+        margin: 0em;
+      }
+      .fluid_parameter {
+        float:right;
+        width:30%;
+        font-weight:normal;
+        margin: 0em;
+        text-align: right;
+      }
       /*Stop Fuild Layout CSS*/
       /*Start images and media*/
       /*Stop images and media*/
