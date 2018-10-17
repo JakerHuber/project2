@@ -91,8 +91,16 @@
         clear: both;
         width: 940px;
       }
+
       /*Stop Fixed Layout CSS*/
       /*Start Fluid Layout CSS*/
       /*Stop Fuild Layout CSS*/
       /*Start images and media*/
       /*Stop images and media*/
+      /*resume*/
+      #nav_fluid {
+        width: 100%;
+      }
+      #a_fluid{
+        padding: 0.875em 1em;
+      }
