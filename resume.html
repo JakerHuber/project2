@@ -23,6 +23,15 @@
         width: 100%;
         text-align: center;
       }
+      #resume_title_h2{
+        width: 100%;
+        text-align: center;
+      }
+      .fluid_section{
+        width: 100%;
+        background-color: aqua;
+      }
+      
       
     </style>
   </head> 
@@ -40,16 +49,16 @@
       <p id="resume_motto" >The cheekiest content on the web.</p>
     </header>
     <div id="resume_wrapper">
-    <section> <!--Resume Title -->
-      <h2>Resume</h2>
+    <section id="resume_title_h2" class="fluid_section"> <!--Resume Title -->
+      <h2 >Resume</h2>
       <h2>Jacob Huebner</h2>
       <aside>630-555-5555 • jhuebner@hawk.iit.edu</aside>
     </section>
-    <section> <!-- Professional Objective -->
+    <section id="resume_section_1" class="fluid_section"> <!-- Professional Objective -->
       <h3>Professional Objective</h3>
       <p>Information Technology and Management student and Helpdesk Coordinator with 2+ years of on-the-job experience providing helpdesk support. I am looking to grow my network and make meaningful connections with potential employers.</p>
     </section>
-    <section> <!-- Education -->
+    <section class="fluid_section"> <!-- Education -->
       <h3>Education</h3>
       <h4>Illinois Institute of Technology</h4>
       <p>May 2020</p>
@@ -66,7 +75,7 @@
         <li>Relevant coursework: Routing and Switching, Computer Network Integration, Security, Internet Telephony.</li>
       </ul>
     </section>
-    <section> <!-- Experience -->
+    <section class="fluid_section"> <!-- Experience -->
       <h3>Experience</h3>
       <h4>CompTIA</h4>
       <p>Downers Grove, IL</p>
@@ -88,14 +97,14 @@
         <li>Audio Video support</li>
       </ul>
     </section>
-    <section><!-- Certifications -->
+    <section class="fluid_section"><!-- Certifications -->
       <h3>Certifications</h3>
       <p><strong>CompTIA Network+ ce</strong>
       <p>July 2016</p>
       <p><strong>CompTIA A+ ce</strong>
       <p>May 2016</p>
     </section>
-    <section><!-- Skills -->
+    <section class="fluid_section"><!-- Skills -->
       <h3>Skills</h3>
       <h4>Industry Knowledge</h4>
       <p>Networking, Technical support, Troubleshooting, Security, Virtualization.</p>
@@ -106,11 +115,10 @@
       <h4>Development</h4>
       <p>Web Design, Visual Studio, Eclipse, Java, and C#.</p>
     </section>
-    <section><!-- Refrences -->
+    <section class="fluid_section"><!-- Refrences -->
     <h3>References</h3>
     <p>Avaliable on request.</p>
     </section>
-    </div>
     <footer>
       <address>
         <p>Contact</p>
@@ -118,5 +126,6 @@
         <p>If you have any questions, please email me at: <a href="mailto:jhuebner@hawk.iit.edu">jhuebner@hawk.iit.edu</a></p>
       </address>
     </footer>
+    </div>
   </body>
 </html>
