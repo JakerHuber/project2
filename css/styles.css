@@ -57,11 +57,13 @@
         margin-right: 10px;
         margin-left: 10px;
         width: 940px;
+        text-align: center;
       }
       #motto{
         margin-right: 10px;
         margin-left: 10px;
         width: 940px; 
+        text-align: center;
       }
       #content_homepage {
         margin-top: 10px;
@@ -72,7 +74,7 @@
       }
       #aside_homepage {
         background-color: #FBFBFF;
-        border-right-color: #333;
+        border-right-color: #606060;
         border-right-style: solid;
         border-right-width: 2px;
         margin-top: 10px;
@@ -100,6 +102,7 @@
       /*resume*/
       #nav_fluid {
         width: 100%;
+        min-width: 385px;
       }
       #a_fluid{
         padding: 0.875em 1em;
