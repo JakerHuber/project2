@@ -6,12 +6,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  </head>
+  </head> 
   <body>
     <header>
-      <h1>Jacob Huebner's Website.</h1>
-      <aside>The cheekiest content on the web.</aside>
-      <nav>
+      <nav id="nav_fluid">
         <ul>
           <li class="logo"><a class="logo" href="#portfolio">JakeZone™</a></li>
           <li><a class="passive" href="index.html">Home</a></li>
@@ -19,52 +17,111 @@
           <li><a class="active" href="portfolio.html">Portfolio</a></li>
         </ul>
       </nav>
+      <h1 id="resume_title">Jacob Huebner's Portfolio</h1>
     </header>
-    <section> <!-- Title -->
-      <h2>Portfolio</h2>
-      <p>Here are some professional and personal projects I've completed in the past few years.</p>
-    </section>
-    <section> <!-- Mobile VR Computer -->
-      <h3>Portable Virtual-Reality PC</h3>
-      <p>In 2017 I was given the opportunity to build a PC for CompTIA's latest interactive education experiment. An app was in development that would utilize VR to train students with PC Hardware. I was tasked with planning and building a PC that could meet the processing demands while being portable enough to take to conferences.</p>
-      <img src="img/vrdesktop_halfsize.jpg" alt="VR Desktop">
-    </section>
-    <section> <!-- Lackrack -->
-      <h3>Home VPN Through Azure</h3>
-      <p>Last year I decided that I would build my own personal VPN. I wanted to securely connect to my home network from anywhere. First, I found an old server and switch. Then, I built a server rack out of furniture I bought from IKEA. Next, I downloaded the software I needed from Microsoft Imagine. Finally, I setup the software and configured the virtual network in Azure. Here’s a diagram of my point-to-site VPN.</p>
-      <img src="img/lackrack_halfsize.jpg" alt="Lackrack">
-    </section>
-    <section> <!-- All Staff -->
-      <h3>All Staff A/V</h3>
-      <p>For the last 2 years I have been responsible for setting up, operating, and tearing down the quarterly all-staff meetings at my company.</p>
-      <img src="img/allstaff_halfsize.jpg" alt="All Staff A/V">
-    </section>
-    <section> <!-- Chicago Public SChool -->
-      <h3>John A Walsh Charity</h3>
-      <p>I recently did some charity work at <i>John A Walsh Public School</i> in Pilson. Here are some pictures.</p>
-      <img src="img/tables_halfsize.png" alt="Tables">
-    </section>
-    <section> <!-- Dell Throne -->
-      <h3>Dell Throne</h3>
-      <p>This is my throne.</p>
-      <img src="img/dellthrone_halfsize.jpg" alt="Dell Throne">
-    </section>
-    <section> <!-- Bears -->
-      <h3>Bear Safety Seminar</h3>
-      <p>In Fall 2017 I attended a mandatory bear safety seminar. Here is how I compare to a bear.</p>
-      <img src="img/comparebear_halfsize.png" alt="Compare to Bear">
-    </section>
-    <section> <!-- Film Festival -->
-      <h3>Film Festival</h3>
-      <p>I entered a film festival in senior year. After weeks of filming, we created the masterpiece below.</p>
-      <iframe src="https://www.youtube.com/embed/1KXus9lB9e0" allowfullscreen></iframe>
-    </section>
-    <footer>
-      <address>
-        <p>Contact</p>
-        <p><strong>Author:</strong> Jacob Huebner – <strong>Github:</strong> <a href="https://github.com/JakerHuber"> JakerHuber</a></p>
-        <p>If you have any questions, please email me at: <a href="mailto:jhuebner@hawk.iit.edu">jhuebner@hawk.iit.edu</a></p>
-      </address>
-    </footer>
+    <div id="resume_wrapper">
+      <section id="resume_title_h2" class="fluid_section"> <!--Resume Title -->
+        <h2>Jacob Huebner</h2>
+        <aside>630-555-5555 • jhuebner@hawk.iit.edu</aside>
+      </section>
+      <section id="resume_section_1" class="fluid_section"> <!-- Professional Objective -->
+        <h3>Professional Objective</h3>
+        <p>Information Technology and Management student and Helpdesk Coordinator with 2+ years of on-the-job experience providing helpdesk support. I am looking to grow my network and make meaningful connections with potential employers.</p>
+      </section>
+      <section class="fluid_section"> <!-- Education -->
+        <h3>Education</h3>
+        <h4 class="fluid_object">Illinois Institute of Technology</h4>
+        <h4 class="fluid_parameter">May 2020</h4>
+        <p class="fluid_object"><i>Bachelor’s in Information Technology and Management</i></p>
+        <p class="fluid_parameter"> </p>
+        <div class="fluid_details">
+          <ul>
+            <li>Heavy focus on management, development, theory, operations, and security.</li>
+            <li>Relevant coursework: Project Management, Java, Web Development.</li>
+          </ul>
+        </div>
+        <h4 class="fluid_object">College of Dupage</h4>
+        <h4 class="fluid_parameter">May 2018</h4>
+        <p class="fluid_object"><i>Associate in Applied Science in Computer and Internetworking Technologies</i></p>
+        <p class="fluid_parameter"> </p>
+        <div class="fluid_details">
+          <ul>
+            <li>Broad exposure to electronic fundamentals with specialty training in the servicing and maintaining information systems.</li>
+            <li>Relevant coursework: Routing and Switching, Computer Network Integration, Security, Internet Telephony.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="fluid_section"> <!-- Experience -->
+        <h3>Experience</h3>
+        <h4 class="fluid_object">CompTIA</h4>
+        <h4 class="fluid_parameter">Downers Grove, IL</h4>
+        <p class="fluid_object"><i>IT Helpdesk Coordinator</i></p>
+        <p class="fluid_parameter">August 2017 - Present</p>
+        <div class="fluid_details">
+          <ul>
+            <li>Supported local and remote users using HelpDesk System</li>
+            <li>Assisted with Network Infrastructure, including AWS and Azure services</li>
+            <li>Maintained network integrity and security according to Association policies, and best practices</li>
+          </ul>
+        </div>
+        <h4 class="fluid_object">CompTIA</h4>
+        <h4 class="fluid_parameter">Downers Grove, IL</h4>
+        <p class="fluid_object"><i>IT Intern</i></p>
+        <p class="fluid_parameter">August 2016 - August 2017</p>
+        <div class="fluid_details">
+          <ul >
+            <li >Assisted IT staff with desktop support (PC’s and Macs)</li>
+            <li>Deployed workstations to staff </li>
+            <li>Misc. Network tasks, including printers and peripherals</li>
+            <li>Audio Video support</li>
+          </ul>
+        </div>
+      </section>
+      <section class="fluid_section"><!-- Certifications -->
+        <h3>Certifications</h3>
+        <h4 class="fluid_object"><strong>CompTIA Network+ ce</strong></h4>
+        <p class="fluid_parameter">July 2016</p>
+        <p> </p>
+        <h4 class="fluid_object"><strong>CompTIA A+ ce</strong></h4>
+        <p class="fluid_parameter">May 2016</p>
+        <p> </p>
+      </section>
+      <section class="fluid_section"><!-- Skills -->
+        <h3>Skills</h3>
+        <h4 class="fluid_object">Industry Knowledge</h4>
+        <p class="fluid_parameter"> </p>
+        <div class="fluid_details">
+          <p>Networking, Technical support, Troubleshooting, Security, Virtualization.</p>
+        </div>
+        <h4 class="fluid_object">Tools and Technologies</h4>
+        <p class="fluid_parameter"> </p>
+        <div class="fluid_details">
+          <p>Windows, LINUX, macOS, VMware, Hyper-V, Amazon Web Services (AWS), Microsoft Azure, Microsoft Office, Office 365, Active Directory, Group Policy, Microsoft Exchange, Windows Server, Cisco Technologies, and Cisco Routers.</p>
+        </div>
+        <h4 class="fluid_object">Interpersonal Skills</h4>
+        <p class="fluid_parameter"> </p>
+        <div class="fluid_details">
+          <p>Customer Service, Management, Written Communication, and Verbal Communication.</p>
+        </div>
+        <h4 class="fluid_object">Development</h4>
+        <p class="fluid_parameter"> </p>
+        <div class="fluid_details">
+          <p>Web Design, Visual Studio, Eclipse, Java, and C#.</p>
+        </div>
+      </section>
+      <section class="fluid_section"><!-- Refrences -->
+        <h3>References</h3>
+        <div class="fluid_details">
+          <p>Avaliable on request.</p>
+        </div>
+      </section>
+      <footer>
+        <address>
+          <p>Contact</p>
+          <p><strong>Author:</strong> Jacob Huebner – <strong>Github:</strong> <a href="https://github.com/JakerHuber"> JakerHuber</a></p>
+          <p>If you have any questions, please email me at: <a href="mailto:jhuebner@hawk.iit.edu">jhuebner@hawk.iit.edu</a></p>
+        </address>
+      </footer>
+    </div>
   </body>
 </html>
