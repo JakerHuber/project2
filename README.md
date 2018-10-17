@@ -14,7 +14,7 @@ This project builds on Project One, which you will fully style with CSS to provi
 ## Deliverables & Milestones
 
 
-1. [ ] **First Deliverable:** Fork your Project One directory in Github to create a project two directory. Create a new Basecamp post under "Project Two" with a link to your new directory. Include in the text of your Basecamp post one or two specific things you would like feedback or help on from the instructor and other students in the class.
+1. [x] **First Deliverable:** Fork your Project One directory in Github to create a project two directory. Create a new Basecamp post under "Project Two" with a link to your new directory. Include in the text of your Basecamp post one or two specific things you would like feedback or help on from the instructor and other students in the class.
 * At least four of the same style elements to each of your pages.
 * At least four different style elements to each of your pages.
 * Centered or right justified horizontal-navigation
@@ -29,11 +29,11 @@ This project builds on Project One, which you will fully style with CSS to provi
 ## Requirements
 
 - [x] Multiple linked valid, well-formed semantic HTML files (Project 1, essentially) 
-- [ ] HTML-based fallbacks for any media elements (image, audio, video) that you include
+- [x] HTML-based fallbacks for any media elements (image, audio, video) that you include
 - [x] One valid, error-free CSS file with your orginal code; and one file containing the css reset code you used.
 - [x] Your HTML and CSS files should both be indented with 2 spaces or one tab per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
-- [ ] You must use relative units (em, rem, vm, %) in your CSS to make your pages fluid. You may use px units to put a maximum size or within content areas.
-- [ ] Create at least one fluid layout page using relative units (em, rem, vm, %)
+- [x] You must use relative units (em, rem, vm, %) in your CSS to make your pages fluid. You may use px units to put a maximum size or within content areas.
+- [x] Create at least one fluid layout page using relative units (em, rem, vm, %)
 - [x] Create at least one fixed width layout page.
 - [x] Organized, readable source that is hand-typed and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf HTML or CSS frameworks)
 - [x] A Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
