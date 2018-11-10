@@ -7,21 +7,44 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
-  <body id="index_body">
-    <header>
-      <nav>
+  <body>
+    <div id="navigation">
+      <div id="nav">
+        <div id="logos" class="logo"><p>JakeZone</p></div>
         <ul>
-          <li class="logo"><a class="logo" href="#index">JakeZone</a></li>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a class="passive" href="resume.html">Resume</a></li>
-          <li><a class="passive" href="portfolio.html">Portfolio</a></li>
+          <li id="fixed-nav"><a class="active" href="index.html">Home</a></li>
+          <li id="fixed-nav"><a class="passive" href="resume.html">Resume</a></li>
+          <li id="fixed-nav"><a class="passive" href="portfolio.html">Portfolio</a></li>
+          <li id="fixed-nav"><a class="passive" href="maps.html">Google Maps</a></li>
         </ul>
-      </nav>
-      <h1 id="title">Jacob Huebner's Website</h1>
-      <p id="motto" >The cheekiest content on the web.</p>
-    </header>
-    <div id="wrapper" class="wrapper">
-      <main id="content_homepage">
+      </div>
+    </div>
+    <div id="wrapper">
+      <div id="header">
+        <header>
+          <h1 id="title">Jacob Huebner's Website</h1>
+          <p id="motto" >The cheekiest content on the web.</p>
+        </header>
+      </div>
+      <div id="extras">
+        <figure>
+          <img src="img/img1_halfsize.jpg" alt="Picture of Me" width="150" height="200">
+          <figcaption>Me at my Favorite Cafe </figcaption>
+        </figure>
+        <h2>Navigation</h2>
+        <ul>
+          <li id="side-il"><a id="side-a"  href="#about_me">About me</a></li>
+          <li id="side-il"><a id="side-a" href="#hobbies">Hobbies</a></li>
+          <li id="side-il"><a id="side-a"  href="#resume">Resume</a></li>
+          <li id="side-il"><a id="side-a"  href="#portfolio">Portfolio</a></li>
+        </ul>
+        <h2>Content</h2>
+        <ul>
+          <li id="side-il"><a id="side-a" href="resume.html">See my Resume</a></li>
+          <li id="side-il"><a id="side-a"  href="portfolio.html">See my Portfolio</a></li>
+        </ul>
+      </div>
+      <div id="main">
         <!--Bio Section-->
         <section class="bio">
           <h2 id="about_me">About me</h2>
@@ -45,32 +68,14 @@
           <p>Another one of the pages on this site is my portfolio that includes a few professional or personal projects I've worked on. You can see my portfolio </p>
           <p></p>
         </section>
-      </main>
-      <aside id="aside_homepage">
-        <figure>
-          <img src="img/img1_halfsize.jpg" alt="Picture of Me" width="150" height="200">
-          <figcaption>Me at my Favorite Cafe <i>tous les jours</i></figcaption>
-        </figure>
-        <h2>Navigation</h2>
-        <ul>
-          <li><a href="#about_me">About me</a></li>
-          <li><a href="#hobbies">Hobbies</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-        </ul>
-        <h2>Content</h2>
-        <ul>
-          <li><a href="resume.html">See my Resume</a></li>
-          <li><a href="portfolio.html">See my Portfolio</a></li>
-        </ul>
-      </aside>
-    </div>
-    <footer id="footer_homepage">
-      <address>
+      </div>
+    </div> <!-- end of wrapper div -->
+    <div id="footer">
+      <div id="address">
         <p>Contact</p>
         <p><strong>Author:</strong> Jacob Huebner - <strong>Github:</strong> <a href="https://github.com/JakerHuber"> JakerHuber</a></p>
         <p>If you have any questions, please email me at: <a href="mailto:jhuebner@hawk.iit.edu">jhuebner@hawk.iit.edu</a></p>
-      </address>
-    </footer>
+      </div>
+    </div>
   </body>
 </html>
